@@ -19,7 +19,9 @@ function App() {
 	return (
 		<div>
 			<ProgressBar progress={progress} />
-			<button onClick={updateProgress}>Increase Progress</button>
+			<button type="button" onClick={updateProgress}>
+				Increase Progress
+			</button>
 		</div>
 	);
 }
